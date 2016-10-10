@@ -36,6 +36,11 @@ public class EmployeeMsgSender {
 	public void setDestination(Destination destination) {
 		this.destination = destination;
 	}
+	
+	@Transactional
+	public void convertAndSendEmployee(final Employee employee) {
+		jmsTemplate.convertAndSend(destination,employee);
+	}
 
 	@Transactional
 	public void sendEmployeeToQueue(final Employee employee) {

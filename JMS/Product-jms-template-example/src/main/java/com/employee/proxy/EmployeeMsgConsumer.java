@@ -33,6 +33,12 @@ public class EmployeeMsgConsumer {
 	public void setDestination(Destination destination) {
 		this.destination = destination;
 	}
+	
+	public Employee receiveAndConvertEmployee(){
+		Employee employee = (Employee) jmsTemplate
+				.receiveAndConvert(destination);
+		return employee;
+	}
 
 	public Employee getNewEmployeeMsg(){
 		TextMessage textMessage = (TextMessage) jmsTemplate
