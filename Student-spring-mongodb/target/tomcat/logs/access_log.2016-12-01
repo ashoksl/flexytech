@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [01/Dec/2016:21:54:54 +0800] "GET /services/studentdocServices/student/47663 HTTP/1.1" 200 22 http-bio-8080-exec-1 380
+0:0:0:0:0:0:0:1 - - [01/Dec/2016:21:55:05 +0800] "GET /services/studentdocServices/student/928374651 HTTP/1.1" 200 948 http-bio-8080-exec-3 45
+0:0:0:0:0:0:0:1 - - [01/Dec/2016:21:56:00 +0800] "POST /services/studentdocServices/addstudents HTTP/1.1" 200 14 http-bio-8080-exec-5 83
+0:0:0:0:0:0:0:1 - - [01/Dec/2016:21:56:06 +0800] "GET /services/studentdocServices/student/928374651 HTTP/1.1" 200 1869 http-bio-8080-exec-6 7
