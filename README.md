@@ -1,0 +1,1 @@
+This repository is created to write basic examples on every possible technology.
