@@ -1,0 +1,5 @@
+com/flexy/domain/store/EmployeeStore.class
+com/flexy/SpringBootKatharsisApplication.class
+com/flexy/domain/model/Employee.class
+com/flexy/domain/repository/EmployeeRepositoryImpl.class
+com/flexy/domain/service/EmployeeService.class
