@@ -1,5 +1,0 @@
-katharsis:
-  domainName: http://localhost:8080
-  pathPrefix: /api
-
-cxf.path: "/api"
